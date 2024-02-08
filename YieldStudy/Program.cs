@@ -16,7 +16,7 @@ namespace YieldStudy
             //Get all the elements
             IEnumerable<string> elements = client.GetAllElements();
 
-            // Just iterate throw the elements, easy!
+            // Just iterate through the elements, easy!
             foreach (string element in elements)
             {
                 Console.WriteLine(element);
